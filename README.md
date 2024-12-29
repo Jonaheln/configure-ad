@@ -32,7 +32,20 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
+![image](https://github.com/user-attachments/assets/e75156b5-997d-4991-9cbc-9b11794fa6e1)
+
+
 ![image](https://github.com/user-attachments/assets/8d9f54ca-b547-4b83-a6c5-3e2996cddab5)
+
+- Create a Resource Group,
+Create a Windows 10 Virtual Machine (VM),
+While creating the VM, select the previously created Resource Group,
+While creating the VM, allow it to create a new Virtual Network (Vnet) and Subnet,
+Create a Linux (Ubuntu) VM,
+While creating the VM, select the previously created Resource Group and Virtual Network—the Virtual Network MUST BE THE SAME.
+Authentication type: Username/Password,
+Ensure both VMs are in the same Virtual Network / Subnet,
+End the lab, but keep both VMs for Part 2!
 
 
 - Login to DC-1 and install Active Directory Domain Services,
