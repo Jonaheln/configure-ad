@@ -69,7 +69,8 @@ Create a new employee named “J D” (same password) with the username of “J_
 Add J_admin to the “Domain Admins” Security Group,
 Log out / close the connection to (VM 1) and log back in as “mydomain.com\J_admin”.
 
-![image](https://github.com/user-attachments/assets/990d7fd4-b5bb-47b4-bf82-1ea6ae3e0452)
+
+![image](https://github.com/user-attachments/assets/da20b618-1d1e-45d7-9616-7e119c8026d3)
 
 
 - Login to (VM-2) as the original local admin and join it to the domain (computer will restart),
