@@ -28,7 +28,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Step 2 Create a Domain Admin user within the domain
 - Step 3 Join Client-1 to your domain (mydomain.com)
 - Step 4 Setup Remote Desktop for non-administrative users on Client-1
-- Step 5 Create a bunch of additional users and attempt to log into client-1 with one of the users
+- Step 5 Create additional users and attempt to log into client-1 with one of the users
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -44,8 +44,7 @@ While creating the VM, allow it to create a new Virtual Network (Vnet) and Subne
 Create a Linux (Ubuntu) VM,
 While creating the VM, select the previously created Resource Group and Virtual Network—the Virtual Network MUST BE THE SAME.
 Authentication type: Username/Password,
-Ensure both VMs are in the same Virtual Network / Subnet,
-End the lab, but keep both VMs for Part 2!
+Ensure both VMs are in the same Virtual Network / Subnet.
 
 
 - Login to DC-1 and install Active Directory Domain Services,
